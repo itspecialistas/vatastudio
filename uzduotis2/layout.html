@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Layout responsive</title>
+	
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="stylesheet" href="css/normalize.css"/>
+	</head> 
+	<body>
+
+	
+	<div class="container">
+	<div class="top">
+		<h1>Where do I start with fixed-indexed annuities?</h1>
+		<p>Let's start by taking a look at how their performance compares in different market conditions</p>
+	</div>
+	<div class="columnsWrap">			
+		<div class="columns1_2 column1">
+			<h1>Equity based investment</h1>
+				<ul>
+					<li>
+						<div><h2>An equity investment grows when markets rise.</h2></div>
+					</li>
+					<li>
+						<div><h2>An equity investment loses money when markets fall.</h2></div>
+					</li>
+					<li>
+						<div><h2>An equity investment will break even.</h2></div>
+					</li>
+					<li>
+						<div><h2>An equity investment can fluctuate during volatile market conditions.</h2></div>
+					</li>
+				</ul>
+				<div class="isvada isvada1">Equity based investments are <span class="svarbu">high risk, highly volatile, and offer no guarantees</span>
+				</div>
+		</div>
+		<div class="columns1_1">
+			<div class="vs"><img src="img/vs.png"/></div>
+				<div class="column2">
+					<h3 class="market">Market Condition</h3>
+						<ul>
+							<li>
+								<h3>Up</h3>
+								<div class="img">
+									<img src="img/up.png"/>
+								</div>
+							</li>
+							<li>
+								<h3>Down</h3>
+								<div class="img">
+									<img src="img/down.png"/>
+								</div>
+							</li>
+							<li>
+								<h3>Up then Down</h3>
+								<div class="img">
+									<img src="img/up_down.png"/>
+								</div>
+								<h3 class="or">or</h3>
+								<h3>Down then Up</h3>
+								<div class="img">
+									<img src="img/down_up.png"/>
+								</div>
+							</li>
+							<li>
+								<h3>Violatile</h3>
+								<div class="color img">
+									<img src="img/volatile.png"/>
+								</div>
+							</li>
+						</ul>
+				</div>
+			<div class="punktyras"></div>
+		</div>
+		<div class="columns1_2 column3">
+			<h1>Fixed-indexed annuity (FIA)</h1>
+				<ul>
+					<li>
+						<div><h2>An FIA grows when markets rise.</h2></div>
+					</li>
+					<li>
+						<div><h2>An FIA is protected from loss and breaks even.</h2></div>
+					</li>
+					<li>
+						<div><h2>An FIA may lock in interest during the rise and be protected from loss during the fall.</h2></div>
+					</li>
+					<li>
+						<div><h2>An FIA may lock in interest during volatility and at the same time be protected from loss.</h2></div>
+					</li>
+				</ul>
+					<div class="isvada isvada2">FIAs form a bulletproof care to a retirement plan - <span class="svarbu">great results no matter what the market does</span>
+					</div>
+		</div>
+	</div>
+
+<!-- Responsive design --> 
+	<div id="responsive_design">
+		<div class="virsus">
+			<h1 class="EBI">Equity based investment</h1>
+				<div class="vs"><img src="img/vs2.png"/></div>
+			<h1 class="FIA">Fixed-indexed annuity (FIA)</h1>
+		</div>
+		<!-- Market condition up --> 
+		<div class="cond">
+			<div class="market_cond">
+				<h3 class="market">Market Condition</h3>
+				<div class="border"></div>
+				<h3>Up</h3>
+				<div class="img"><img src="img/up.png"/></div>
+			</div>
+			<h2 class="EBI">An equity investment grows when markets rise.</h2>
+			<div class="resp_icon"><img src="img/green_icon.png"/></div>
+			<div class="vs"><img src="img/vs2.png"/></div>
+			<div class="resp_icon"><img src="img/green_icon.png"/></div>
+			<h2 class="FIA">An FIA grows when markets rise.</h2>
+		</div>
+		
+		<!-- Market condition down --> 
+		<div class="cond">
+			<div class="market_cond">
+				<h3 class="market">Market Condition</h3>
+				<div class="border"></div>
+				<h3>Down</h3>
+				<div class="img"><img src="img/down.png"/></div>
+			</div>
+			<h2 class="EBI">An equity investment grows when markets rise.</h2>
+			<div class="resp_icon"><img src="img/red_icon.png"/></div>
+			<div class="vs"><img src="img/vs2.png"/></div>
+			<div class="resp_icon"><img src="img/blue_icon.png"/></div>
+			<h2 class="FIA">An FIA grows when markets rise.</h2>
+		</div>
+		<!-- Market condition up then down and down then up--> 
+		<div class="cond">
+			<div class="market_cond">
+				<h3 class="market">Market Condition</h3>
+				<div class="border"></div>
+				<h3>Up then Down</h3>
+				<div class="img"><img src="img/up_down.png"/></div>
+				<h3 class="or">or</h3>
+				<h3>Down then Up</h3>
+				<div class="img"><img src="img/down_up.png"/></div>
+			</div>
+			<h2 class="EBI">An equity investment grows when markets rise.</h2>
+			<div class="resp_icon"><img src="img/blue_icon.png"/></div>
+			<div class="vs"><img src="img/vs2.png"/></div>
+			<div class="resp_icon"><img src="img/green_icon.png"/></div>
+			<h2 class="FIA">An FIA grows when markets rise.</h2>
+		</div>
+		
+		<!-- Market condition violatile -->
+		<div class="cond">
+			<div class="market_cond">
+				<h3 class="market">Market Condition</h3>
+				<div class="border"></div>
+				<h3>Violatile</h3>
+				<div class="img"><img src="img/volatile.png"/></div>
+			</div>
+			<h2 class="EBI">An equity investment grows when markets rise.</h2>
+			<div class="resp_icon"><img src="img/red_icon_q.png"/></div>
+			<div class="vs"><img src="img/vs2.png"/></div>
+			<div class="resp_icon"><img src="img/green_icon.png"/></div>
+			<h2 class="FIA">An FIA grows when markets rise.</h2>
+		</div>
+
+
+		<div class="isvados">
+			<div class="border2"></div>
+			<div class="isvada isvada1">Equity based investments are <span class="svarbu">high risk, highly volatile, and offer no guarantees</span>
+			</div>
+			<div class="vs"><img src="img/vs2.png"/></div>
+			<div class="isvada isvada2">FIAs form a bulletproof care to a retirement plan - <span class="svarbu">great results no matter what the market does</span>
+			</div>
+		</div>
+	</div> 
+<!-- responsive_design end -->
+
+</div>
+
+<div class="clear"> </div>
+
+<!-- import jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+    
+<!-- sticky virsus -->
+<script>
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 1){  
+        $('.virsus').addClass("sticky");
+    }
+    else{
+        $('.virsus').removeClass("sticky");
+    }
+});
+</script>
+
+	</body>
+</html>

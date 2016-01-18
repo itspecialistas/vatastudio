@@ -1,0 +1,302 @@
+/*
+Theme Name: Responsive layout
+Description: Responsive, layout, css3
+Author: Jekaterina Osipova
+*/
+
+/*------------------------------- GENERAL STYLING -------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&subset=latin,latin-ext);
+
+body {
+	background: #F0F0F0;
+	width: 100%; 
+	margin: 0; 
+	padding: 0;
+	font-family: 'Roboto Slab', serif;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+.top {
+	text-align: center;
+ 	font-weight:700;
+	color:#435271;
+}
+.top h1 {font-size:40px}
+
+.top p {font-size:24px}
+
+.columnsWrap {
+	width: 1280px; 
+	margin:0 auto; 
+	clear: both
+}
+
+.isvada {
+	clear: both;
+    padding: 50px;
+	font-size: 16px;
+}
+
+h1{
+	color: #1E7943; 
+	text-align: center; 
+}
+
+.EBI {color: #0c1a39;font-weight:700;font-size:30px;}	
+.FIA {color: #1E7943;font-weight:700;font-size:30px;} 
+
+h2{
+	color: #000; 
+	font-weight:400;
+	color:#373737;
+}
+
+h3{
+	color: #435271; 
+	text-align: center;
+	font-weight:700;
+	font-size:17px;
+}
+
+h3.market {
+	border-bottom: 1px solid #CECECE;
+	padding-bottom: 20px;
+}
+
+.columns1_2 {
+    float: left;
+    width: 500px;
+}
+.columns1_1 {
+    float: left;
+    width: 160px;
+	margin: 0 15px;
+}
+
+.column2 {
+	border: 1px solid #CECECE;
+	border-radius:3px;
+	-webkit-box-shadow: 0px 2px 5px 3px rgba(206,206,206,0.8);
+	-moz-box-shadow: 0px 2px 5px 3px rgba(206,206,206,0.8);
+	box-shadow: 0px 2px 5px 3px rgba(206,206,206,0.8);
+
+}
+
+.column1 h1 {
+	color: #0c1a39;
+	font-weight:700;
+	font-size:30px;
+	text-transform: uppercase;
+}
+
+.column3 h1 {
+	color: #1E7943;
+	font-weight:700;
+	font-size:30px;
+	text-transform: uppercase;
+}
+.or {margin:0;padding:0}
+
+.column1 h2 {
+	text-align:right;
+	float: right;
+	margin-right:80px;
+	font-size: 23px;
+
+}
+.column3 h2 {
+	text-align:left;
+	float: left;
+	margin-left:80px;
+	font-size: 23px;
+}
+
+ul {list-style:none;padding:0}
+li {float: left;height:150px}
+.clear {clear: both}
+  
+.column1 li,
+.column3 li {border-bottom: 1px solid #CECECE}
+
+.column1 li div,
+.column3 li div {
+    height:150px;
+    display:table-cell;
+    vertical-align: middle;
+}
+
+.column2  li{float: none}
+
+/* Icons on the background */
+.column1  li:nth-of-type(2){
+	background: url(../img/red_icon.png) no-repeat center right; 
+}
+.column1  li:first-of-type {
+	background: url(../img/green_icon.png) no-repeat center right; 
+}
+.column1  li:nth-of-type(3){
+	background: url(../img/blue_icon.png) no-repeat center right; 
+}
+.column1  li:last-of-type{
+	background: url(../img/red_icon_q.png) no-repeat center right; 
+}
+.column3  li:first-of-type,
+.column3  li:nth-of-type(3),
+.column3  li:last-of-type{
+	background: url(../img/green_icon.png) no-repeat center left; 
+}
+
+.column3  li:nth-of-type(2){
+	background: url(../img/blue_icon.png) no-repeat center left; 
+}
+/* Icons on the background end */
+
+li:nth-of-type(3) {height:270px}
+li:nth-of-type(3) h3 {margin:0}
+li:nth-of-type(2) h3 {margin:0}
+.column2 li:last-of-type {margin-top: -50px;}
+li:nth-of-type(3) .img {height: auto}
+
+.column1 li:nth-of-type(3) div,
+.column3 li:nth-of-type(3) div {
+    height: 270px;
+    display: table-cell;
+    vertical-align: middle
+}
+.vs {text-align: center}
+
+.punktyras {
+	border-right: 1px dashed #CECECE;
+	height: 200px;
+	margin-right: 80px;
+}
+
+.virsus {
+	background-color: #F0F0F0;
+}
+
+.virsus.sticky {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	-webkit-box-shadow: 0px 3px 9px 0px rgba(206,206,206,1);
+	-moz-box-shadow: 0px 3px 9px 0px rgba(206,206,206,1);
+	box-shadow: 0px 3px 9px 0px rgba(206,206,206,1);
+}
+
+.svarbu {font-weight: 700}		
+.isvada1 {color: #0c1a39;text-align: right;}
+.isvada2 {color: #1E7943;text-align: left;}
+
+.img {
+  width: 80px;
+  height: 70px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+  
+
+/* Responsive */
+
+@media only screen and (min-device-width: 1281px) {
+	#responsive_design {display: none;}
+}
+
+@media only screen 
+  and (min-device-width: 879px) 
+  and (max-device-width: 1280px) {
+.columnsWrap {width: 100%;	margin-left: 3%}
+.columns1_2 {
+	width: 37%;		
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease
+}
+.column3 h1,.column1 h1 {
+	font-size: 21px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease
+}
+.column3 h2, .column1 h2 {
+	font-size: 19px; 
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease
+	}
+.top h1 {
+	font-size: 30px;	
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease
+}
+.top p {
+	font-size: 18px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	transition: all 0.4s ease
+}
+
+li {height: 200px}
+
+.column1 li div, .column3 li div {	height: 200px}
+
+#responsive_design {display: none}
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 878px) {
+
+  .columnsWrap {display: none}
+
+h2  {text-align: center;padding: 0px 10px;}
+h3 {font-size: 24px}
+h3.market {border-bottom:none;padding-bottom: 0px;margin: 5px;padding-top: 20px;font-size: 24px}
+.top {padding:0 15px;}
+.top h1 {font-size: 30px}
+.top p {font-size: 18px} 
+
+.border {
+	width: 10%;
+    border-bottom: 1px solid #CECECE;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+.border2 {border-bottom: 1px dashed #CECECE}
+.resp_icon {text-align: center}
+.cond {clear: both;padding-bottom: 20px;}
+
+.market_cond {
+	-webkit-box-shadow: 0 -4px 4px 0px #CECECE;
+	-moz-box-shadow: 0 -4px 4px 0px #CECECE;
+	box-shadow: 0 -4px 4px 0px #CECECE;
+}
+
+.isvada1,.isvada2 {text-align:center}
+.isvada {font-size: 24px;padding: 10px}
+
+div.cond:nth-of-type(2n+1){background-color: #FFFFFF}
+
+.vs {padding: 20px;}
+.virsus .vs {padding: 0px;}
+.EBI {margin-bottom: 5px;font-size: 20px}	
+.FIA {margin-top: 5px;font-size: 20px}
+
+}
