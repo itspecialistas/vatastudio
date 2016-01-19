@@ -1,0 +1,250 @@
+/*  
+ * Theme Name: White Paper
+ * Theme URI: http://justpx.com/product/white-paper/
+ * Version: 1.9.4
+ * Author: JustPX
+ * Author URI: http://justpx.com/
+ * Description: Light, easy-to-use, functional template White Paper is perfect for personal blogging, eCommerce. 
+ * White Paper WordPress Theme, Copyright 2015 JustPX
+ * White Paper is distributed under the terms of the GNU GPL
+ * Tags: white, one-column, translation-ready
+ * Text Domain: white-paper
+ * License: GNU General Public License v3.0
+ * License URI: http://www.gnu.org/copyleft/gpl.html
+*/
+
+@charset "utf-8";
+
+*{
+	margin:0; 
+	padding:0;
+}
+body{
+	background:#fff;
+	color: #232122;
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #232122;
+}
+a:hover{
+	color: #2ab4ed;
+}
+
+
+
+
+
+/* HEADER 
+===================================================================*/		
+.main{
+	width:960px; 
+	margin:0 auto;
+	padding-top: 50px;
+}	
+.main-head{
+	margin:0 auto;
+}	
+
+
+/* CONTENT
+===================================================================*/
+.content{
+	width:960px; 
+	float:left; 
+	margin:10px 12px 0 0px;
+}
+
+p{
+	line-height: 1.8em;
+}
+.post{
+	margin: 0 20px 15px 0px;
+}		
+.post p{
+	font-size: 16px;	
+	/*margin: 0 0 15px;*/
+
+}
+.post a{
+	text-decoration:underline;
+	font-size: 16px;
+}	
+.post a:hover{
+	text-decoration:none;
+	font-size: 16px;
+}	
+.post:after { 
+   content: "";
+   display: block; 
+   clear: both;
+}
+.wp-post-image{
+	float:left; 
+	margin:0 15px 15px 0;
+}
+.post{  
+	margin: 0 0px 15px 0px;
+}
+.post-main {
+	/*border-bottom: 1px solid #232122;*/
+  /* margin: 0px 0 20px 0; */
+  /* margin: 0 10px 15px 0px; */
+  /* padding: 20px; */
+
+  padding: 5px;
+  /* overflow: hidden; */
+  /* width: 230px; */
+  /* float: left; */
+}
+img{
+    max-width:100% !important;
+    height:auto;
+}
+
+a img {
+    border: none;
+   }
+
+/******************* Anketa ********************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext);
+body {background-color: #1B1919;}
+
+.anketa {
+font-family: 'Open Sans', sans-serif; 
+background-color: #1B1919; 
+color: #F7F7F7;
+font-weight: 400;
+margin: 0 auto;
+text-align: center
+}
+
+.aprasymas h1 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.5em;
+width: 750px;
+margin: 10px auto;
+}
+
+.aprasymas {margin-bottom: 40px;}
+
+.orange {color: #FB7641}
+
+.aprasymas p {width: 650px;margin: 0 auto;font-weight: 300;}
+
+.row p,
+.contact-agree span {display: inline-block; margin-right: 50px;}
+
+.anketa input[type="text"],
+.anketa input[type="email"] {
+background-color: transparent;
+border-bottom: 1px solid #FB7641;
+font-family: 'Open Sans', sans-serif;
+}
+
+.anketa input[type="file"] {opacity: 0; filter: alpha(opacity=0)}
+.agree span.wpcf7-not-valid-tip {position: absolute;width: 250px;top: -20px;}
+
+.contact-attach span {
+   background: url(http://www.itspecialistas.lt/wp-content/uploads/2016/01/att2.png) no-repeat right 0px;
+border-bottom: 1px solid #FB7641;
+}
+
+input[type="file"] {height: 0px}
+
+input[type="text"], input[type="email"],input[type="file"]  {
+width: 250px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+    color: #666565;
+    vertical-align: middle;
+    box-shadow: none;
+    border: 0px none;
+}
+
+.label-att {color: #666565;float: left;margin-bottom: -20px;font-family: 'Open Sans', sans-serif;}
+p.siusti {float: right;}
+.checkbox-info {float: left;}
+input[type="submit"] {
+width: 250px;
+height: 40px;
+background: #FB7641;
+border: none;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    border-color: #d7d7d7;
+    background: #d7d7d7;
+}
+
+input[type="submit"]:active {
+    border-color: #b1b1b1;
+    background: #b1b1b1;
+    box-shadow: inset 0 -1px 0 rgba(69, 69, 69, 0.4);
+}
+
+input[type=checkbox] {
+   z-index: 1;
+opacity: 0;
+}
+input[type=checkbox] + .wpcf7-list-item-label:before {
+    content: "";  
+    display: inline-block;  
+    width: 15px;  
+    height: 15px;  
+    vertical-align:middle;
+    margin-right: 8px;  
+    border-radius: 10px;  
+    border: 1px solid #FB7641;
+}
+
+input[type=checkbox]:checked + .wpcf7-list-item-label:before {
+    content:"✔"; /* Tick */
+    font-size: 30px;
+    text-align:center;
+    line-height:0px;
+    color: #FB7641;
+}
+
+.checkbox input[type="checkbox"] {
+position: absolute;
+top: 5px;
+margin-left: 5px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #666565 !important;
+opacity: 1;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #666565 !important;
+opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #666565 !important;
+opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #666565 !important;
+opacity: 1;
+}
+
+div.row:last-of-type {margin-top: 80px;}
+.afooter, .footer, .main-head {display: none;}
+
+#clear1, #clear2, #clear3 {
+color: grey;
+text-decoration: none;
+font-size: 20px;
+}
+
+.contact-attach {margin-right: 45px!important}

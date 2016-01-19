@@ -1,0 +1,13 @@
+== changelog ==
+
+v. 1.9.4    add_theme_support( 'title-tag' );
+v. 1.9.3    textarea css - outline:none
+v. 1.9.2    Language - Czech
+v. 1.9.1	fix logo; add Translation
+v. 1.9		add Translation; add Sidebar Header; add Sidebar Footer 5
+v. 1.7.2 	add Czech and add Screen-reader text
+v. 1.7.1	Turkish
+v. 1.7	    WordPress 4.2 ready
+v. 1.6	    supports: Easy Google Fonts (for logo and content)
+v. 1.4	    translation-ready, WooCommerce
+v. 1.3	    supports: Jetpack (logo and favicon), Contact Form 7 and Subscribe2
