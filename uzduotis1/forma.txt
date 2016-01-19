@@ -1,0 +1,66 @@
+<div class="contact-form-wrapper2">
+<div class="row">
+<p class="contact-vardas">
+<br />
+[text your-name placeholder "Vardas, Pavardė"] </p>
+
+
+<p class="contact-birthday">
+<br />
+[text birthday placeholder "Gimimo data"] </p>
+
+<p class="contact-city">
+<br />
+[text city placeholder "Miestas"] </p>
+</div>
+
+<div class="row">
+<p class="contact-address">
+<br />
+[text address placeholder "Adresas"] </p>
+
+<p class="contact-phone">
+<br />
+[text phone placeholder "Telefonas"] </p>
+
+<p class="contact-email">
+<br />
+[email email placeholder "El. paštas"] </p>
+</div>
+
+<div class="row">
+<p class="contact-height">
+<br />
+[text height placeholder "Ūgis (cm)"] </p>
+
+<p class="contact-liemuo">
+<br />
+[text liemuo placeholder "Liemuo (cm)"] </p>
+
+<p class="contact-klubai">
+<br />
+[text klubai placeholder "Klubai (cm)"] </p>
+</div>
+
+<div class="row">
+<p class="contact-attach">
+<label class="label-att">
+Prisegti nuotrauką</label><br />
+[file attach1 limit:32000000 filetypes:jpg|jpeg|png|pdf|gif id:myfile1]<a href="" id="clear1">x</a></p>
+
+<p class="contact-attach">
+<label class="label-att">
+Prisegti nuotrauką</label><br />
+[file attach2 limit:32000000 filetypes:jpg|jpeg|png|pdf|gif id:myfile2]<a href="" id="clear2">x</a></p>
+
+<p class="contact-attach">
+<label class="label-att">
+Prisegti nuotrauką</label><br />
+[file attach3 limit:32000000 filetypes:jpg|jpeg|png|pdf|gif id:myfile3]<a href="" id="clear3">x</a></p>
+</div>
+<div class="row">
+<div class="checkbox checkbox-info checkbox-circle">
+[checkbox* agree "Sutinku"] su <span class="orange">taisyklėmis</span></div>
+<p class="siusti">[submit "IŠSIŲSTI"]</p>
+</div>
+</div>
