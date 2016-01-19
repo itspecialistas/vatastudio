@@ -6,7 +6,13 @@
 			<div class="post-main">
 		
 				<div class="post">
-					<?php the_content(); ?>
+					<div class="aprasymas">
+<h1>Mes visad ieškome naujų veidų, todėl gali drąsiai pildyti anketą žemiau</h1>
+<p><span class="orange">REIKALAVIMAI:</span> ŪGIS VIRŠ 170 CM, AMŽIUS TARP 12-22 METŲ.<br />
+Labai prašom pridėti savo veido ir visu ūgiu nuotraukas. Jos turėtų būti paprastos, natūralios, be makiažo, kad galėtume kuo geriau pamatyti, kaip atrodai. Taip pat būk atidi teisingai užpildydama savo kontaktinę informaciją.</p>
+</div>
+<?php echo do_shortcode('[contact-form-7 id="7" title="anketa"]'); ?>
+
 				</div>
 			</div>
 			<?php endwhile; ?>			
